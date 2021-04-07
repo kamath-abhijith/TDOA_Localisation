@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  8 APR 2021 03:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.20)  8 APR 2021 04:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,38 +766,58 @@ File: ../results/crlb_y.pdf Graphic file (type pdf)
 <use ../results/crlb_y.pdf>
 Package pdftex.def Info: ../results/crlb_y.pdf  used on input line 333.
 (pdftex.def)             Requested size: 433.62pt x 233.67648pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-43.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
- [4 <../results/mle.pdf> <../results/blue.pdf
+[4 <../results/mle.pdf> <../results/blue.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/blue.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->] [5 <../results/crlb_x.pdf> <../results/crlb_y.pdf
+>]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
+44.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (3.1689pt too wide) in paragraph at lines 344--345
+\OT1/ptm/m/n/10.95 The Python3 scripts to gen-er-ate all fig-ures can be down-l
+oaded from the GitHub repos-i-tory []$\OT1/pcr/m/n/10.95 https : / / github .
+ []
+
+[5 <../results/crlb_x.pdf> <../results/crlb_y.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ../results/crlb_y.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+>] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 350.
+
+(../tdoa_ml.py
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 5
+9.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+[6]) (../tdoa_blue.py [7]) (../tdoa_montecarlo.py [8] [9]) (../utils.py
+[10] [11] [12])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
  ) 
 Here is how much of TeX's memory you used:
- 12406 strings out of 480608
- 182342 string characters out of 5903629
- 484150 words of memory out of 5000000
- 27959 multiletter control sequences out of 15000+600000
- 554406 words of font info for 86 fonts, out of 8000000 for 9000
+ 13497 strings out of 480608
+ 195616 string characters out of 5903629
+ 901472 words of memory out of 5000000
+ 28547 multiletter control sequences out of 15000+600000
+ 557314 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,24n,37p,1318b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,24n,42p,1318b,2128s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/abhi
 jith/Library/texlive/2020/texmf-var/fonts/pk/ljfour/public/bbm/bbm10.657pk></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
@@ -817,13 +837,14 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (5 pages, 4294044 bytes).
+20/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb>
+Output written on main.pdf (13 pages, 4344408 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 786 compressed objects within 8 object streams
+ 514 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

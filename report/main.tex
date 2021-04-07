@@ -327,7 +327,7 @@ Figure \ref{fig:blue} shows the TDOA localisation using BLUE. The distance measu
 
 Figure \ref{fig:crlbX} and \ref{fig:crlbY} shows the mean-squared-error (MSE) between estimated target location and true target location for varying values of $\sigma^{2}$, using MLE and BLUE respectively; along with their corresponding CRLB. It can be seen that the MLE and BLUE achieve CRLB as the $
 \sigma^{2}$ goes to zero. It can also be observed that the MLE estimate consistently has a lower MSE than the BLUE estimate. Further, the MLE estimate has MSE achieving the CRLB even for higher values of $\sigma^{2}$, whereas the BLUE estimate is evidently suboptimal for higher values of $\sigma^{2}$.
-\begin{figure}[t]
+\begin{figure}[t!]
 \centering
 \subfigure[]{\label{fig:crlbX}\includegraphics[width=6in]{../results/crlb_x.pdf}}
 \subfigure[]{\label{fig:crlbY}\includegraphics[width=6in]{../results/crlb_y.pdf}}
@@ -339,8 +339,35 @@ Figure \ref{fig:crlbX} and \ref{fig:crlbY} shows the mean-squared-error (MSE) be
 
 \appendix
 
+\newpage
 \subsection*{Scripts}
-Please find the codes on \url{here}
-%\lstinputlisting[language=Python]{../utils.py}
+The Python3 scripts to generate all figures can be downloaded from the GitHub repository \url{https://github.com/kamath-abhijith/TDOA_Localisation}. Use \texttt{requirements.txt} to install all dependencies. Also, see the following code snippets for reference.
+
+\newpage
+\subsubsection*{Implementation of TDOA Localisation using MLE}
+
+The relevant function to implement MLE estimate \texttt{mle\_tdoa} is in \texttt{utils.py}.
+\lstinputlisting[language=Python]{../tdoa_ml.py}
+
+% -----------------------------------------------------------------------------------------------------------------------
+
+\subsubsection*{Implementation of TDOA Localisation using BLUE}
+
+The relevant function to implement BLUE estimate \texttt{blue\_tdoa} is in \texttt{utils.py}.
+\lstinputlisting[language=Python]{../tdoa_blue.py}
+
+% -----------------------------------------------------------------------------------------------------------------------
+
+\subsubsection*{Noise Analysis of TDOA Localisation using MLE and BLUE}
+
+The relevant function to compute the CRLB \texttt{crlb\_tdoa} is in \texttt{utils.py}.
+\lstinputlisting[language=Python]{../tdoa_montecarlo.py}
+
+% -----------------------------------------------------------------------------------------------------------------------
+
+\subsubsection*{\texttt{utils.py}}
+
+This script contains all the relevant functions and helpers.
+\lstinputlisting[language=Python]{../utils.py}
 
 \end{document}

@@ -1,6 +1,6 @@
 '''
 
-UTILITY FUNCTIONS FOR TDOA LOACALISATION
+UTILITY FUNCTIONS FOR TDOA LOCALISATION
 
 AUTHOR: ABIJITH J KAMATH
 abijithj@iisc.ac.in
@@ -58,7 +58,8 @@ def plot_curve(x, y, ax=None, plot_colour='blue', xaxis_label=None,
         fig = plt.figure(figsize=(12,6))
         ax = plt.gca()
 
-    plt.plot(x, y, linestyle=line_style, linewidth=line_width, color=plot_colour, label=legend_label)
+    plt.plot(x, y, linestyle=line_style, linewidth=line_width, color=plot_colour,
+        label=legend_label)
     if legend_label and legend_show:
         plt.legend(loc=legend_loc, frameon=True, framealpha=0.8, facecolor='white')
     plt.xlabel(xaxis_label)

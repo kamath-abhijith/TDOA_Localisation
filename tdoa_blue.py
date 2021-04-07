@@ -26,8 +26,8 @@ import utils
 plt.style.use(['science','ieee'])
 
 plt.rcParams.update({
-    "font.family": "serif",   # specify font family here
-    "font.serif": ["cm"],  # specify font here
+    "font.family": "serif",
+    "font.serif": ["cm"],
     "mathtext.fontset": "cm",
     "font.size": 11})
 
