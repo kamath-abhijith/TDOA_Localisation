@@ -8,7 +8,7 @@ Time difference of arrival (TDOA) is an estimation method for target localisatio
 
 ## Documentation
 
-`instructions.pdf` contains the necessary instructions for the assignment. `solutions.pdf` contains theory and algorithms.
+`docs/instructions.pdf` contains the necessary instructions for the assignment. `docs/solutions.pdf` contains theory and algorithms.
 
 ## Installation
 
@@ -20,7 +20,7 @@ conda create --name <env> --file requirements.txt
 
 ## Run
 
-- `TDOA_data.mat` contains the data. See `README_hw1` for the structure.
+- `data/TDOA_data.mat` contains the data. See `data/README_hw1` for the structure.
 - Run `tdoa_ml.py` to generate Figure 1(a).
 - Run `tdoa_blue.py` to generate Figure 1(b).
 - Run `tdoa_montecarlo.py` to generate Figure 2.
