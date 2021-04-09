@@ -33,7 +33,7 @@ plt.rcParams.update({
 
 # %% LOAD DATA
 
-data = loadmat('TDOA_data.mat')
+data = loadmat('./data/TDOA_data.mat')
 
 anchor_location = data['anchor_location'].astype(np.float)
 target_location = data['target_location'].astype(np.float)
