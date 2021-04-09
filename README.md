@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 # TIME DIFFERENCE OF ARRIVAL (TDOA) LOCALISATION
 
 Time difference of arrival (TDOA) is a method for target localisation. Let the 2D position of the target be $\mathbf{x} = [x \; y]^{\mathsf{T}}$, and let $\{\mathbf{x}_{i}\}_{i=1}^{M}$ be the position of the $M$ sensors used to locate the target. The TDOA system measures difference in ranges using the time-delay of a test signal and the measurements are modelled as:
